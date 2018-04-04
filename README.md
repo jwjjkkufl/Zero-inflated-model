@@ -15,7 +15,8 @@
     ## "class" function in python
     ## "define" funcion within class
 
-`from matplotlib import  pyplot as plt
+```
+from matplotlib import  pyplot as plt
 import numpy as np
 from scipy import stats
 from statsmodels.base.model import GenericLikelihoodModel
@@ -66,4 +67,4 @@ class ZeroInflatedPoisson(GenericLikelihoodModel):
 model = ZeroInflatedPoisson(x)
 results = model.fit()       
 print(results.summary())`
-
+```
