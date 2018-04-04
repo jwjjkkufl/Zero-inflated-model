@@ -38,7 +38,7 @@ N = 1000
 inflated_zero = stats.bernoulli.rvs(pi, size=N)
 x = (1 - inflated_zero) * stats.poisson.rvs(lambda_, size=N)
 
-plt.bar(x, align='center', alpha=0.5)
+plt.hist(x)
 plt.show()
 
 class ZeroInflatedPoisson(GenericLikelihoodModel):
